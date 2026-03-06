@@ -1,2 +1,2 @@
 # blog
-FredOnline Blog
+FredOnline Pages Blog
