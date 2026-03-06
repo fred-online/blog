@@ -1,0 +1,157 @@
+@charset "UTF-8";
+/* 
+Basic HTML web page style sheet 
+*/
+
+body			
+			{
+			background-color: #09272B;
+			margin: 0px;
+			padding: 0px; 
+			font-family: Open Sans, sans-serif;
+			font-size: 14px;
+			text-align: center;
+			}
+img
+			{
+    			max-width: 100%;
+			}
+
+hr       {
+         border: none;
+         border-top: 1px solid #16606a;
+         }
+         
+#a1		
+			{
+			background-color: #000000;
+			border-width: 0px 0px;
+			border-style: solid;
+			border-color: #000; 
+			margin: 0px auto; padding: 4px;
+			width: 560px;
+			text-align: justify;
+			}
+
+#b2	
+			{
+			background-color: #FFFFEF;
+			border-width: 1px 1px;
+			border-style: solid;
+			border-color: #C0C0C0; 
+			margin: 0px auto; padding: 4px;
+			width: 560px;
+			text-align: justify;
+			}
+
+
+#c3		
+			{
+			background-color: #F7F3F7;
+			border-width: 1px 1px;
+			border-style: solid;
+			border-color: #C0C0C0; 
+			margin: 0px auto; padding: 4px;
+			width: 560px;
+			text-align: justify;
+			}
+
+/* Headings definition */
+
+h1			
+			{
+  font-family: 'Montserrat', sans-serif;
+  font-size:250%;
+  font-style: normal;
+  font-weight: 300;
+  color: #C0C0C0;
+  margin-top: 0;
+  line-height: 120%;
+			}
+h2			
+			{
+  font-family: 'Montserrat', sans-serif;
+  font-size:400%;
+  font-style: normal;
+  font-weight: 200;
+  color: #B2FFD9;
+  margin-bottom: 0.5em;
+  line-height: 120%;
+			}
+h3			
+			{
+  font-family: 'Open Sans', sans-serif;
+  font-size:150%;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.75em;
+  color: #C0C0C0;
+  margin-bottom: 0;
+			}
+h4			
+			{
+  font-family: 'Montserrat', sans-serif;
+  font-size:425%;
+  font-style: normal;
+  font-weight: 200;
+  color: #B2FFD9;
+  margin-bottom: 0.5em;
+  line-height: 120%;
+			}
+
+/* Paragraph definition */
+
+p, li		
+			{
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.50em;
+  color: #FAFAD2;
+			}
+p			{
+			padding-left: 10px;
+			padding-right: 10px;
+			text-align: justify;
+			}
+			
+/* Link definition */
+
+a:link		
+			{
+			color: #09cc50; font-weight: none;
+			text-decoration: none;
+			}
+
+a:visited	
+			{
+			color: #09cc50; font-weight: none;
+			text-decoration: underline;
+			}
+
+a:active	
+			{
+			color: #09cc50; font-weight: none;
+			}
+
+a:hover		
+			{
+			color: #90f215; font-weight: none;
+			}
+/* Mobile Styles - Screens 768px and smaller */
+@media screen and (max-width: 768px) {
+  h2 {
+    font-size: 200% !important; /* Reduces your largest header so it fits on screen */
+  }
+  h1 {
+    font-size: 150% !important;
+  }
+  h3 {
+    font-size: 120% !important;
+  }
+  p {
+    font-size: 100%;
+    line-height: 1.6; /* Adds breathing room between lines on small screens */
+  }
+}
+
